@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungpycourse/nodejs-blog.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "trungpy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungpycourse/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/trungpycourse/nodejs-blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
